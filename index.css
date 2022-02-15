@@ -1,0 +1,161 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a:link , a:visited{
+    text-decoration: none;
+    color: #333;
+}
+.wrap .section{
+    position: relative;
+    text-transform: uppercase;
+    }
+body {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #db747a;
+      overflow: hidden;
+    }
+/*-------------------------1page--------------------------*/
+.wrap .section:nth-child(1) video{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.wrap .section:nth-child(1) .box{
+    position: absolute;
+    width: 20%;
+    height: 50%;
+    background-color: salmon;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    font: bold 40px serif;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: calc(10% - 10px);
+    z-index: 3;
+}
+.wrap .section:nth-child(1) .box dl{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 20%;
+    left: 0%;
+}
+.wrap .section:nth-child(1)>dl>dt{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    line-height: 150%;
+}
+.wrap .section:nth-child(1)>dl>dd{
+    position: absolute;
+}
+
+/*-------------------------2page--------------------------*/
+.wrap .section:nth-child(2).section{position: relative; background-color: #b7d8cf}
+.wrap .section:nth-child(2) .self{
+    position: absolute;
+    width: 30%;
+    height:60%;
+    top: 50%;
+    left: 10%;
+    background: #92ada6;
+    transform:translateY(-50%) ;
+}
+.wrap .section:nth-child(2) .spec{
+    position: absolute;
+    width: 50%;
+    height:100%;
+    top: 50%;
+    left:120%;
+    transform:translateY(-50%) ;
+}
+.wrap .section:nth-child(2) .spec li{
+    line-height: 590%;
+}
+/*-------------------------3page--------------------------*/
+
+.wrap .section:nth-child(3) .slide{
+    position: relative;
+    background: black;
+}
+
+.wrap .section:nth-child(3) .slide ul{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.wrap .section:nth-child(3) .slide .img1{
+    position:absolute;
+    width: 25%;
+    height: 50%;
+    top: 50%;
+    transform:translateY(-50%);
+    right: 17%;
+}
+.wrap .section:nth-child(3) .slide .img2{
+    position:absolute;
+    width: 25%;
+    height: 50%;
+    top: 50%;
+    transform:translateY(-50%);
+    left: 12%;
+}
+
+
+/*-------------------------4page--------------------------*/
+.wrap .section:nth-child(4) .slide{
+    position: relative;
+    background: black;
+}
+.wrap .section:nth-child(4) .slide ul{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.wrap .section:nth-child(4) .slide .img3{
+    position:absolute;
+    width: 25%;
+    height: 50%;
+    top: 50%;
+    transform:translateY(-50%);
+    right: 17%;
+}
+.wrap .section:nth-child(4) .slide .img4{
+    position:absolute;
+    width: 25%;
+    height: 50%;
+    top: 50%;
+    transform:translateY(-50%);
+    left: 12%;
+}
+/*-------------------------5page--------------------------*/
+.wrap .section:nth-child(5) .fp-tableCell{
+    height: auto !important;
+}
+.wrap .section:nth-child(5){
+    background-color: firebrick;
+    height: auto !important;
+}
+.wrap .myContent{height: 300px;}
+
+.wrap .section:nth-child(5) dl{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
